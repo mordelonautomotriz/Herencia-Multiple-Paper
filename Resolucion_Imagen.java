@@ -29,14 +29,7 @@ public class Resolucion_Imagen implements Angulo_Traslacion, Angulo_Rotacion{
         //por ejemplo escogemos que sea  el Angulo_Traslacion
         Angulo_Traslacion.super.Mejorar();
     }
-/*
-    @Override 
-    public void Mejorar(){
-    //se puede elegir la implementacion de una interfaz
-    //por ejemplo, escogeremos que sea Angulo_Rotacion
-    Angulo_Rotacion.super.Mejorar();
-    }
-    */
+
     public static void main(String[] args) {
         
         Resolucion_Imagen sensibilidad = new Resolucion_Imagen();
